@@ -1,0 +1,24 @@
+*.cs linguist-language=C#
+*.tsx linguist-language=TypeScript
+*.ts linguist-language=TypeScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+*.json linguist-language=JSON
+*.sln linguist-language=C#
+*.csproj linguist-language=C#
+
+# Documentation
+*.md linguist-documentation
+LICENSE linguist-documentation
+
+# Binary files
+*.ico binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.svg binary
+
+# Generated files
+package-lock.json linguist-generated
+*/obj/* linguist-generated
+*/bin/* linguist-generated 
