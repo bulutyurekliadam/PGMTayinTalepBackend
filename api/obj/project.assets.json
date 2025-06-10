@@ -5221,11 +5221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hakanayvaz/Desktop/TayinTalepAPI/TayinTalepAPI.csproj",
+      "projectUniqueName": "/Users/hakanayvaz/Desktop/TayinTalepAPI/api/TayinTalepAPI.csproj",
       "projectName": "TayinTalepAPI",
-      "projectPath": "/Users/hakanayvaz/Desktop/TayinTalepAPI/TayinTalepAPI.csproj",
+      "projectPath": "/Users/hakanayvaz/Desktop/TayinTalepAPI/api/TayinTalepAPI.csproj",
       "packagesPath": "/Users/hakanayvaz/.nuget/packages/",
-      "outputPath": "/Users/hakanayvaz/Desktop/TayinTalepAPI/obj/",
+      "outputPath": "/Users/hakanayvaz/Desktop/TayinTalepAPI/api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hakanayvaz/.nuget/NuGet/NuGet.Config"

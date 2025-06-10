@@ -59,7 +59,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// HTTPS yönlendirmesini kaldırıyoruz
+// app.UseHttpsRedirection();
 
 // CORS middleware'ini ekle
 app.UseCors("AllowReactApp");

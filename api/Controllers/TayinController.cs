@@ -14,6 +14,7 @@ namespace TayinTalepAPI.Controllers
         public class TayinTalebiRequest
         {
             public required string TalepEdilenAdliye { get; set; }
+            public required string TalepTuru { get; set; }
             public required string Aciklama { get; set; }
         }
 
@@ -35,6 +36,7 @@ namespace TayinTalepAPI.Controllers
             {
                 SicilNo = sicilNo,
                 TalepEdilenAdliye = request.TalepEdilenAdliye,
+                TalepTuru = request.TalepTuru,
                 Aciklama = request.Aciklama,
                 BasvuruTarihi = DateTime.Now,
                 TalepDurumu = "Beklemede"
@@ -58,6 +60,18 @@ namespace TayinTalepAPI.Controllers
             var talepler = await _context.TayinTalepleri
                 .Where(t => t.SicilNo == sicilNo)
                 .OrderByDescending(t => t.BasvuruTarihi)
+                .Select(t => new
+                {
+                    t.Id,
+                    t.TalepEdilenAdliye,
+                    t.TalepTuru,
+                    t.BasvuruTarihi,
+                    t.Aciklama,
+                    t.TalepDurumu,
+                    t.DegerlendirilmeTarihi,
+                    t.DegerlendirmeNotu,
+                    t.IsOnaylandi
+                })
                 .ToListAsync();
 
             return Ok(talepler);
@@ -86,6 +100,7 @@ namespace TayinTalepAPI.Controllers
                     t.Id,
                     t.SicilNo,
                     t.TalepEdilenAdliye,
+                    t.TalepTuru,
                     t.BasvuruTarihi,
                     t.Aciklama,
                     t.TalepDurumu,

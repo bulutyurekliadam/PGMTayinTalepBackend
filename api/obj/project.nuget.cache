@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XJf8HuQ4w60=",
+  "dgSpecHash": "2UMCpdRM00s=",
   "success": true,
-  "projectFilePath": "/Users/hakanayvaz/Desktop/TayinTalepAPI/TayinTalepAPI.csproj",
+  "projectFilePath": "/Users/hakanayvaz/Desktop/TayinTalepAPI/api/TayinTalepAPI.csproj",
   "expectedPackageFiles": [
     "/Users/hakanayvaz/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/hakanayvaz/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

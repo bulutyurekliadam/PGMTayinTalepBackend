@@ -17,6 +17,10 @@ namespace TayinTalepAPI.Models
         public required string TalepEdilenAdliye { get; set; }
 
         [Required]
+        [StringLength(50)]
+        public required string TalepTuru { get; set; }
+
+        [Required]
         public DateTime BasvuruTarihi { get; set; }
 
         [Required]

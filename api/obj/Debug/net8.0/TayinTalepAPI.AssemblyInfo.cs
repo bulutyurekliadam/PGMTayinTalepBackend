@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TayinTalepAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5bbb0fc791ef06ac8f8a446dee18985289f1138")]
 [assembly: System.Reflection.AssemblyProductAttribute("TayinTalepAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TayinTalepAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
